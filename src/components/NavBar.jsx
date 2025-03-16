@@ -31,7 +31,7 @@ const NavBar = () => {
     <>
     <div className="navbar bg-base-300 px-10">
   <div className="flex-1">
-    <Link to="/" className="btn btn-ghost text-xl text-white">Maya Threads</Link>
+    <Link to="/" className="btn btn-ghost text-xl text-white">MayaThreads</Link>
   </div>
   <div className="flex-none gap-2">
     
@@ -66,7 +66,7 @@ const NavBar = () => {
             </span>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link to="/connections" className="justify-between">
             Connections
           </Link>
@@ -75,7 +75,7 @@ const NavBar = () => {
           <Link to="/requests" className="justify-between">
             Requests
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link onClick={handleLogout}>
             Logout
